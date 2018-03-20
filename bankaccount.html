@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+     <h1>Welcome to Epicodus Credit Union!</h1>
+
+     <p>To give you a quote, we need to know a little about you:</p>
+
+     <form id="creditunion">
+       <label for="name">Name</label>
+       <input id="name" type="text">
+       <label for="initialdeposit">Initial Deposit</label>
+       <input id="initialdeposit" type="text">
+      </input>
+
+       <button type="submit" class="btn">Calculate my quote</button>
+     </form>
+
+     <div class="quote">
+      <h1>Bank Account Info:</h1>
+        <p>Name: <span class="inputtedName"></span></p>
+        <p>Balance: <span class="inputtedDeposit"></span></p>
+    </div>
+
+  </body>
+</html>
